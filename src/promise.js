@@ -4,9 +4,14 @@ const fetch = require("node-fetch");
 //If stubbing how do I do that.
 //https://jsonplaceholder.typicode.com
 
-exports.promise = ()=>{
-  fetch('https://jsonplaceholder.typicode.com/users')
-.then(resolvedData => resolvedData)
-.catch(error=> error)
+
+
+exports.promise = (callback)=>{
+  fetch('https://jsonplaceholder.typicode.com/posts/1')
+  .then(response => response.json())
+  .then(jsonData => callback(jsonData))
+  .catch(error=> error)
 };
+
+
 
