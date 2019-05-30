@@ -42,3 +42,4 @@ configure({ adapter: new Adapter() });
 - This is how I test React Applications.
 - Not that Enzyme can be used with ``Mocha`` or any ``JavaScript testing Framework``.
 - For more about ``Enzyme`` click [here](https://airbnb.io/enzyme/).
+- Lastly, if you do have an issuse check this [link](https://github.com/airbnb/enzyme/issues/1265)
