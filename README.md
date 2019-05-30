@@ -30,3 +30,15 @@ configure({ adapter: new Adapter() });
 > Create-React-App will automatically pick up this file, if not using CRA then also add this line in the same location as snapshotSerializers above or import the file into your test file.
 
 - ``setupFiles": ["./src/setupTests.js"]``. For more info [click here](https://medium.com/codeclan/testing-react-with-jest-and-enzyme-20505fec4675) or [here](https://jestjs.io/docs/en/tutorial-react#setup-without-create-react-app)
+
+
+> Testing Hello.
+
+![Screen Shot 2019-05-30 at 09 15 26](https://user-images.githubusercontent.com/37377831/58618914-9a41a780-82bb-11e9-86b4-97cd0499cd14.png)
+
+
+![Screen Shot 2019-05-30 at 09 15 35](https://user-images.githubusercontent.com/37377831/58618976-bd6c5700-82bb-11e9-8520-78a6797d88ef.png)
+
+- This is how I test React Applications.
+- Not that Enzyme can be used with ``Mocha`` or any ``JavaScript testing Framework``.
+- For more about ``Enzyme`` click [here](https://airbnb.io/enzyme/).
