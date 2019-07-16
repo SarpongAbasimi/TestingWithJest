@@ -1,5 +1,3 @@
-const fetch = require("node-fetch");
-
 const myObj = {
   name: 'sarp',
   book: 'books'

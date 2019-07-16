@@ -1,5 +1,14 @@
-const sum = require('../src/add');
+const { add } =  require('../src/add');
+const fetch = require('node-fetch')
+// const axios = require('axios');
 
-test('add two numbers together',()=>{
-  expect(sum.sum(3,4)).toBe(7)
+jest.mock('node-fetch');
+
+test('add two numbers together', ()=>{
+  const myData = {'id': 'sap' }
+  // fetch.mockResolvedValue(myData)
+  fetch.mockImplementation(() => Promise.resolve(myData))
+  add().then(response => {
+    expect(response.id).toBe('sap')
+  })
 });
