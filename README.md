@@ -4,11 +4,16 @@
 29th May 2019
 </h4>
 
-> Today I had a paring session with Alice to learn how to TDD with jest.
-> She expelained to me the concept of ``callback`` functions, ``event loop`` in javaScript and testing Asyn code.
-> We also found out that ``beforeEach`` in ``jest`` does not work the same as ``beforeEach`` in ``RSpec``.
-> She said I had a good understanding of ``event loop`` and that I need to look into ``testing `` them.
+ - The goal of this project is to help me understand how 
+   - ``jest works``.
+   - use ``jest fn()`` and ``jest mocks``.
 
+#### How to run tests.
+
+- ``Fork`` and ``clone`` this repo.
+- cd into ``TestingWithJest``.
+- run npm install.
+- run ``npm test `` to run tests.
 
 <h4 align="center">
 30th May 2018.
@@ -40,6 +45,6 @@ configure({ adapter: new Adapter() });
 ![Screen Shot 2019-05-30 at 09 15 35](https://user-images.githubusercontent.com/37377831/58618976-bd6c5700-82bb-11e9-8520-78a6797d88ef.png)
 
 - This is how I test React Applications.
-- Not that Enzyme can be used with ``Mocha`` or any ``JavaScript testing Framework``.
+- Note that Enzyme can be used with ``Mocha`` or any ``JavaScript testing Framework``.
 - For more about ``Enzyme`` click [here](https://airbnb.io/enzyme/).
 - Lastly, if you do have an issuse check this [link](https://github.com/airbnb/enzyme/issues/1265)
